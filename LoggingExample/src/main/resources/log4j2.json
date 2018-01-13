@@ -1,0 +1,27 @@
+{
+   "Configuration": {
+      "Appenders": {
+         "Console": {
+            "PatternLayout": {
+               "pattern": "%d{yyyy-MMM-dd HH:mm:ss a} [%t] %-5level %logger{36} - %msg%n"
+            },
+            "name": "Console",
+            "target": "SYSTEM_OUT"
+         }
+      },
+      "Loggers": {
+         "logger":{"name": "org.springframework",
+         	"level": "error",
+        		"AppenderRef": [{"ref": "Console"}]
+          },
+         "Root": {
+            "AppenderRef": [
+               {
+                  "ref": "Console"
+               }
+            ],
+            "level": "trace"
+         }
+      }
+   }
+}

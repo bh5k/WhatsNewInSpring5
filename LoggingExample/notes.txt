@@ -1,0 +1,19 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"logger":{"name": "org.springframework",
+         	"level": "error",
+        		"AppenderRef": [{"ref": "Console"}]
+          },

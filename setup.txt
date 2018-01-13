@@ -1,0 +1,5 @@
+The samples from this module can just be imported into your IDE and ran. Since this is a What's New course, it isn't how to build everything from scratch. These projects run as Java projects and just need to be imported from a workspace directory.
+
+The Kotlin project will need to be ran as in the course. First run the command grade wrapper and then ./gradlew bootRun
+
+The two testing projects are just simple JUnit projects. Tester does require the services from the Reactive project to be running to execute that test.
